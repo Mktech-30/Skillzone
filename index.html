@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillZone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
+    </script>
+</head>
+<body>
+<header>
+    <h1>SkillZone</h1>
+    <p>Your free home for learning every sport.</p>
+</header>
+
+<section class="section" id="sports">
+    <h2>Sports</h2>
+    <div class="grid">
+        <div class="sport-card">
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Basketball">
+            <h3>Basketball</h3>
+        </div>
+        <div class="sport-card">
+            <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2" alt="Football">
+            <h3>Football</h3>
+        </div>
+        <div class="sport-card">
+            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018" alt="Netball">
+            <h3>Netball</h3>
+        </div>
+        <div class="sport-card">
+            <img src="https://images.unsplash.com/photo-1624620603161-f9f5799f2d1e" alt="Boxing">
+            <h3>Boxing</h3>
+        </div>
+    </div>
+</section>
+
+<section class="section coming-soon fade-in">
+    <h2>Coming Soon</h2>
+    <p>More sports, drills, and features on the way 👀</p>
+</section>
+
+<footer>
+    <p>© 2025 SkillZone</p>
+</footer>
+</body>
+</html>

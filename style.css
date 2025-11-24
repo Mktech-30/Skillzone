@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: #0b0b0b;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #00eaff, #0077ff);
+}
+h1 { font-size: 40px; margin: 0; }
+p { opacity: 0.8;}
+
+.section {
+    padding: 40px 20px;
+}
+h2 { text-align: center; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.sport-card {
+    background: #111;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.sport-card:hover {
+    transform: translateY(-5px);
+}
+.sport-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.coming-soon {
+    text-align: center;
+    background: #111;
+    padding: 40px 20px;
+    border-radius: 15px;
+    border: 2px dashed #00eaff;
+}
+.coming-soon h2 {
+    color: #ffdd00;
+}
+.coming-soon p {
+    color: #aaa;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #111;
+}
